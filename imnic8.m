@@ -11,13 +11,12 @@ else
 end
 [h,v]=size(imc);
 
-%imcrop fonksiyonu kullanılarak resim kırpma
 % [i,j]=size(im);
-% if(j>i)%sutun satırdan büyükse
+% if(j>i)%sutun satÃ½rdan bÃ¼yÃ¼kse
 %     d=j-i;
 %     imc=imcrop(im,[1,1,(j-d-1),(j-d-1)]);
 %     [h,v]=size(imc);
-% elseif(i>j)%satır sutundan büyükse
+% elseif(i>j)%satÃ½r sutundan bÃ¼yÃ¼kse
 %     d=i-j;
 %     imc=imcrop(im,[1,1,(i-d-1),(i-d-1)]);
 %     [h,v]=size(imc);
@@ -50,7 +49,7 @@ for i=1:h
         end
     end  
 end
-disp('8-düzey nicemleme işlemi tamamlandı.');
+disp('8-dÃ¼zey nicemleme iÃ¾lemi tamamlandÃ½.');
 return;
 end
 
