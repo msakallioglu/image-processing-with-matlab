@@ -3,19 +3,19 @@ function test(g)
      %Zoom
      f1=imzum(g);
      figure,imshow(g);
-     title('Resmin ilk hali');
+     title('First Picture');
      figure,imshow(f1);
-     title('Zoomlamadan sonra');
+     title('After zoom');
      
-     %Nicemleme
+     %quantization
      f2=imnic8(g);
      figure,imshow(f2);
-     title('8-düzey nicemleme iþleminden  sonra');
+     title('After 8 levels quantization');
      
-     %Filtreleme
+     %Filtering
      f3=imort(g);
      figure,imshow(f3);
-     title('Filtreleme iþleminden sonra');
+     title('After filtering');
      
 end
 

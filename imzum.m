@@ -23,6 +23,6 @@ for i= 0:nr-1
     imz(i+1, j+1) = imc(y+1, x+1);
   end
 end
-disp('Büyütme iþlemi tamamlandý.');
+disp('Image Enlargement Completed.');
     return
 end
