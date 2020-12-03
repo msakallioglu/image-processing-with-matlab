@@ -56,5 +56,5 @@ for i=1:v
     end
 end
 c = uint8(c);
-disp('Filtremele iþlemi tamamlandý.');
+disp('The filtering process is complete.');
 return;

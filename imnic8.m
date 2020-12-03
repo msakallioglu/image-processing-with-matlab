@@ -11,19 +11,6 @@ else
 end
 [h,v]=size(imc);
 
-% [i,j]=size(im);
-% if(j>i)%sutun satýrdan büyükse
-%     d=j-i;
-%     imc=imcrop(im,[1,1,(j-d-1),(j-d-1)]);
-%     [h,v]=size(imc);
-% elseif(i>j)%satýr sutundan büyükse
-%     d=i-j;
-%     imc=imcrop(im,[1,1,(i-d-1),(i-d-1)]);
-%     [h,v]=size(imc);
-% else
-%     imc=im;
-%     [h,v]=size(imc);
-% end
 
 temp = randn(h,v);                           
 g = uint8(temp);
@@ -49,7 +36,7 @@ for i=1:h
         end
     end  
 end
-disp('8-düzey nicemleme iþlemi tamamlandý.');
+disp('8 level quantization process completed.');
 return;
 end
 
